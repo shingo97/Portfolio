@@ -28,7 +28,7 @@ public class notas {
         nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del Segundo Parcial"));
         examen = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del Examen Final"));
 
-        //los valores asignados son inventados no aplicar para ningun caso en especial
+        //los valores asignados son inventados no aplican para ningun caso en especial.
         definitiva = ((nota1 + nota2) / 2 * 0.6) + (examen * 0.4);
 
         // Se imprimen los datos con JOptionPane.showMessageDialog:
